@@ -24,6 +24,8 @@ Import and initialize a client using an **integration token** or an OAuth **acce
 ```js
 const { Client } = require("@notionhq/client")
 
+
+
 // Initializing a client
 const notion = new Client({
   auth: process.env.NOTION_TOKEN,
